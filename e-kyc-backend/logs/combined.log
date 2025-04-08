@@ -1,0 +1,83 @@
+2025-04-01 13:58:40 [[32MINFO[39M]: ✅ Database connection established successfully
+2025-04-01 13:58:40 [[32MINFO[39M]: 🚀 Server running on port 8040
+2025-04-01 18:31:58 [[32MINFO[39M]: ✅ Database connection established successfully
+2025-04-01 18:31:58 [[32MINFO[39M]: 🚀 Server running on port 8040
+2025-04-01 18:34:14 [[32MINFO[39M]: 📝 Creating a new user in the database
+2025-04-01 18:35:03 [[32MINFO[39M]: ✅ Database connection established successfully
+2025-04-01 18:35:03 [[32MINFO[39M]: 🚀 Server running on port 8040
+2025-04-01 18:35:08 [[32MINFO[39M]: 📝 Creating a new user in the database
+2025-04-01 19:53:44 [[32MINFO[39M]: ✅ Database connection established successfully
+2025-04-01 19:53:44 [[32MINFO[39M]: 🚀 Server running on port 8040
+2025-04-01 21:37:55 [[32MINFO[39M]: ✅ Database connection established successfully
+2025-04-01 21:37:55 [[32MINFO[39M]: 🚀 Server running on port 8040
+2025-04-01 21:44:32 [[32MINFO[39M]: ✅ Database connection established successfully
+2025-04-01 21:44:32 [[32MINFO[39M]: 🚀 Server running on port 8040
+2025-04-01 21:44:48 [[32MINFO[39M]: ✅ Database connection established successfully
+2025-04-01 21:44:48 [[32MINFO[39M]: 🚀 Server running on port 8040
+2025-04-01 21:46:20 [[31MERROR[39M]: MongooseServerSelectionError: Socket 'secureConnect' timed out after 30006ms (connectTimeoutMS: 30000)
+    at _handleConnectionErrors (/rian-02/Projects/Rian Islam2025/FULL STACK/e-kyc-full-stack/e-kyc-backend/node_modules/mongoose/lib/connection.js:1165:11)
+    at NativeConnection.openUri (/rian-02/Projects/Rian Islam2025/FULL STACK/e-kyc-full-stack/e-kyc-backend/node_modules/mongoose/lib/connection.js:1096:11)
+2025-04-01 21:46:20 [[31MERROR[39M]: Error: Failed to connect to database
+    at /rian-02/Projects/Rian Islam2025/FULL STACK/e-kyc-full-stack/e-kyc-backend/src/db/index.ts:21:11
+    at Generator.throw (<anonymous>)
+    at rejected (/rian-02/Projects/Rian Islam2025/FULL STACK/e-kyc-full-stack/e-kyc-backend/src/db/index.ts:6:65)
+2025-04-01 21:47:26 [[32MINFO[39M]: ✅ Database connection established successfully
+2025-04-01 21:47:26 [[32MINFO[39M]: 🚀 Server running on port 8040
+2025-04-01 21:48:02 [[32MINFO[39M]: 📝 Creating a new user in the database
+2025-04-01 21:48:59 [[32MINFO[39M]: 📝 Creating a new user in the database
+2025-04-01 21:49:57 [[33MWARN[39M]: 404 Not Found: /api/login
+2025-04-01 21:57:22 [[32MINFO[39M]: ✅ Database connection established successfully
+2025-04-01 21:57:22 [[32MINFO[39M]: 🚀 Server running on port 8040
+2025-04-01 21:58:44 [[32MINFO[39M]: ✅ Database connection established successfully
+2025-04-01 21:58:44 [[32MINFO[39M]: 🚀 Server running on port 8040
+2025-04-01 21:59:26 [[32MINFO[39M]: ✅ Database connection established successfully
+2025-04-01 21:59:26 [[32MINFO[39M]: 🚀 Server running on port 8040
+2025-04-01 22:00:48 [[32MINFO[39M]: ✅ Database connection established successfully
+2025-04-01 22:00:48 [[32MINFO[39M]: 🚀 Server running on port 8040
+2025-04-02 12:21:22 [[32MINFO[39M]: ✅ Database connection established successfully
+2025-04-02 12:21:22 [[32MINFO[39M]: 🚀 Server running on port 8040
+2025-04-02 12:54:45 [[32MINFO[39M]: ✅ Database connection established successfully
+2025-04-02 12:54:45 [[32MINFO[39M]: 🚀 Server running on port 8040
+2025-04-02 12:56:11 [[32MINFO[39M]: ✅ Database connection established successfully
+2025-04-02 12:56:11 [[32MINFO[39M]: 🚀 Server running on port 8040
+2025-04-02 13:01:11 [[32MINFO[39M]: ✅ Database connection established successfully
+2025-04-02 13:01:11 [[32MINFO[39M]: 🚀 Server running on port 8040
+2025-04-02 13:01:13 [[32MINFO[39M]: Uploading document for user
+2025-04-02 13:02:33 [[31MERROR[39M]: CastError: Cast to ObjectId failed for value "upload" (type string) at path "_id" for model "Document"
+    at SchemaObjectId.cast (/rian-02/Projects/Rian Islam2025/FULL STACK/e-kyc-full-stack/e-kyc-backend/node_modules/mongoose/lib/schema/objectId.js:251:11)
+    at SchemaObjectId.SchemaType.applySetters (/rian-02/Projects/Rian Islam2025/FULL STACK/e-kyc-full-stack/e-kyc-backend/node_modules/mongoose/lib/schemaType.js:1255:12)
+    at SchemaObjectId.SchemaType.castForQuery (/rian-02/Projects/Rian Islam2025/FULL STACK/e-kyc-full-stack/e-kyc-backend/node_modules/mongoose/lib/schemaType.js:1673:17)
+    at cast (/rian-02/Projects/Rian Islam2025/FULL STACK/e-kyc-full-stack/e-kyc-backend/node_modules/mongoose/lib/cast.js:390:32)
+    at model.Query.Query.cast (/rian-02/Projects/Rian Islam2025/FULL STACK/e-kyc-full-stack/e-kyc-backend/node_modules/mongoose/lib/query.js:4907:12)
+    at model.Query.Query._castConditions (/rian-02/Projects/Rian Islam2025/FULL STACK/e-kyc-full-stack/e-kyc-backend/node_modules/mongoose/lib/query.js:2325:10)
+    at model.Query._findOne (/rian-02/Projects/Rian Islam2025/FULL STACK/e-kyc-full-stack/e-kyc-backend/node_modules/mongoose/lib/query.js:2648:8)
+    at model.Query.exec (/rian-02/Projects/Rian Islam2025/FULL STACK/e-kyc-full-stack/e-kyc-backend/node_modules/mongoose/lib/query.js:4456:80)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-04-02 14:30:20 [[32MINFO[39M]: ✅ Database connection established successfully
+2025-04-02 14:30:20 [[32MINFO[39M]: 🚀 Server running on port 8040
+2025-04-02 14:30:39 [[33MWARN[39M]: 404 Not Found: /api/user/register
+2025-04-02 14:31:27 [[33MWARN[39M]: 404 Not Found: /api/user/register
+2025-04-02 14:31:33 [[33MWARN[39M]: 404 Not Found: /api/user/register
+2025-04-02 14:32:08 [[32MINFO[39M]: 📝 Creating a new user in the database
+2025-04-02 14:35:46 [[32MINFO[39M]: 📝 Creating a new user in the database
+2025-04-02 14:36:08 [[32MINFO[39M]: 📝 Creating a new user in the database
+2025-04-02 23:32:09 [[32MINFO[39M]: ✅ Database connection established successfully
+2025-04-02 23:32:09 [[32MINFO[39M]: 🚀 Server running on port 8040
+2025-04-02 23:45:36 [[32MINFO[39M]: 📝 Creating a new user in the database
+2025-04-02 23:49:38 [[32MINFO[39M]: 📝 Creating a new user in the database
+2025-04-03 09:27:57 [[32MINFO[39M]: ✅ Database connection established successfully
+2025-04-03 09:27:57 [[32MINFO[39M]: 🚀 Server running on port 8040
+2025-04-03 14:06:17 [[32MINFO[39M]: 📝 Creating a new user in the database
+2025-04-03 17:47:13 [[33MWARN[39M]: 404 Not Found: /api/document/user
+2025-04-03 17:58:45 [[33MWARN[39M]: 404 Not Found: /api/document/upload
+2025-04-03 18:02:39 [[32MINFO[39M]: Uploading document for user
+2025-04-03 18:02:42 [[33MWARN[39M]: 404 Not Found: /api/document/user
+2025-04-03 18:02:45 [[33MWARN[39M]: 404 Not Found: /api/document/user
+2025-04-03 23:23:13 [[32MINFO[39M]: ✅ Database connection established successfully
+2025-04-03 23:23:13 [[32MINFO[39M]: 🚀 Server running on port 8040
+2025-04-03 23:27:52 [[32MINFO[39M]: ✅ Database connection established successfully
+2025-04-03 23:27:52 [[32MINFO[39M]: 🚀 Server running on port 8040
+2025-04-03 23:29:20 [[32MINFO[39M]: Uploading selfie for user
+2025-04-04 02:21:10 [[32MINFO[39M]: Uploading selfie for user
+{"level":"info","message":"✅ Database connection established successfully","timestamp":"2025-04-03T21:43:11.374Z"}
+{"level":"info","message":"🚀 Server running on port 8040","timestamp":"2025-04-03T21:43:11.379Z"}
