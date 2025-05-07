@@ -1,21 +1,21 @@
-import { Schema, model } from 'mongoose'
+import { Schema, model } from "mongoose";
 import {
   type ISelfieDocument,
   type SelfieModel,
   SelfieStatus,
-} from './selfie.interface'
+} from "./selfie.interface";
 
 const selfieSchema = new Schema<ISelfieDocument, SelfieModel>(
   {
     user: {
       type: Schema.Types.ObjectId,
-      ref: 'User',
-      required: [true, 'User is required'],
+      ref: "User",
+      required: [true, "User is required"],
       unique: true,
     },
     selfieImageUrl: {
       type: String,
-      required: [true, 'Selfie image URL is required'],
+      required: [true, "Selfie image URL is required"],
     },
     status: {
       type: String,
@@ -36,18 +36,18 @@ const selfieSchema = new Schema<ISelfieDocument, SelfieModel>(
   {
     timestamps: true,
   }
-)
+);
 
 selfieSchema.statics.findByUserId = async function (
   userId: string
 ): Promise<ISelfieDocument | null> {
-  return this.findOne({ user: userId })
-}
+  return this.findOne({ user: userId });
+};
 
-selfieSchema.index({ user: 1 }, { unique: true })
-selfieSchema.index({ status: 1 })
+// selfieSchema.index({ user: 1 }, { unique: true })
+// selfieSchema.index({ status: 1 })
 
 export const Selfie = model<ISelfieDocument, SelfieModel>(
-  'Selfie',
+  "Selfie",
   selfieSchema
-)
+);
